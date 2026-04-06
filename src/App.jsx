@@ -8,10 +8,14 @@ import Skills from './components/Skills'
 import Contact from './components/Contact'
 import GrainOverlay from './components/GrainOverlay'
 import FloatingParticles from './components/FloatingParticles'
+import CustomCursor from './components/CustomCursor'
 
 function App() {
   return (
     <div className="relative min-h-screen bg-anime-black overflow-x-hidden">
+      {/* Custom Cursor */}
+      <CustomCursor />
+      
       {/* Effects */}
       <GrainOverlay />
       <FloatingParticles />
